@@ -1,0 +1,27 @@
+body {
+  background-color: #E6E6FA;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 80%;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+table td, table th {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000000;
+  font-size: 18px;
+}
+table td {
+  width: 20%;
+}

@@ -1,0 +1,32 @@
+.header__add-form input {
+padding-left: 5px;
+width: 180px;
+border: 2px solid black;
+border-radius: 5px;
+outline: none;
+margin-left: 2px;
+}
+
+.header__add-form{
+  position: absolute;
+  top: 1%;
+  left: 18%;
+}
+
+.header__filter {
+  position: absolute;
+  top: 8%;
+  left: 1%;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.header__filter:hover, .header__add-item:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.header__filter:active, .header__filter:focus, .header__add-item:active, .header__add-item:focus {
+  outline: none;
+}
